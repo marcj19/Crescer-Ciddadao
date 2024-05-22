@@ -1,9 +1,20 @@
-import React, { useState } from 'react';
-import './Login.css'; 
-
+import React, { useState, useEffect } from 'react';
+import './Login.css';
+import Logo from '../assets/img/logo.png';
+import userIcon from '../assets/img/img4.png';
+import keyIcon from '../assets/img/keyIcon.png';
+import googleIcon from '../assets/img/googleIcon.png';
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  useEffect(() => {
+    document.body.classList.add('login-body');
+
+    return () => {
+      document.body.classList.remove('login-body');
+    };
+  }, []);
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -17,39 +28,56 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h1>CRESCER CIDADÃO</h1>
+      <div className="logo">
+        <img src={Logo} alt="Logo" />
+      </div>
+      <h1>JÁ FAÇO PARTE</h1>
       <form onSubmit={handleLogin}>
         <div className="input-group">
-          <label htmlFor="email">EMAIL</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
+          <label htmlFor="email"></label>
+          <div className="input-icon-wrapper">
+
+            <input
+              type="email"
+              id="email"
+              placeholder="EMAIL"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+            <img src={userIcon} alt="User Icon" className="input-icon" />
+          </div>
         </div>
         <div className="input-group">
-          <label htmlFor="password">SENHA</label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+          <label htmlFor="password"></label>
+          <div className="input-icon-wrapper">
+            <input
+              type="password"
+              id="password"
+              placeholder="SENHA"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+            <img src={keyIcon} alt="Key Icon" className="input-icon" />
+          </div>
+          <div className="checkbox-group">
+            <input type="checkbox" id="rememberMe" />
+            <label htmlFor="rememberMe">Lembrar de mim</label>
+            <span className="forgot-password">Esqueceu a senha?</span>
+          </div>
         </div>
         <button type="submit">ENTRAR</button>
-        <div className="or-divider">
-          <span>X</span>
+        <div className="alternative-login">
+          <img src={googleIcon} alt="Google Icon" className="google-icon" />
+          <span className="google-text">Faça login com o Google</span>
         </div>
+
         <button type="button" onClick={handleRegister}>
-          Não tem uma conta? Cadastrar
+          <span>Não tem uma conta? Cadastrar</span>
         </button>
       </form>
-      <div className="alternative-login">
-        <span>Faça login.com o Google</span>
-      </div>
+
     </div>
   );
 };
