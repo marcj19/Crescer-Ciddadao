@@ -16,7 +16,7 @@ section .layout-images{
     width: 20%;
 }
 
-section img{
+.secao img{
     height: 350px;
 }
 
@@ -75,6 +75,7 @@ section img{
     z-index: 1;
     font-weight: bold;
     font-family: "Sen", sans-serif;
+    box-sizing: border-box;
 }
 
 

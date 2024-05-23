@@ -19,7 +19,7 @@
     justify-content: space-around;
 }
 
-section img{
+.icaro img{
    height: 365px;
    width: 100%;
    border: 1px solid grey;
