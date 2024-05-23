@@ -6,7 +6,7 @@ import Retangulo2 from "../assets/img/retangulo-2.svg"
 import abacaxi from "../assets/img/abacaxi.svg"
 import moeda from "../assets/img/moeda.svg"
 import roupa from "../assets/img/roupa.svg"
-import { Footer } from '../components/footer'
+import {Footer} from '../components/footer'
 
 
 export const Doacao = () => {
@@ -48,8 +48,8 @@ export const Doacao = () => {
             </div>
     </section>
     
+    < Footer />
 
-    
     </>
   )
 }
