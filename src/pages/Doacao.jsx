@@ -6,8 +6,8 @@ import Retangulo2 from "../assets/img/retangulo-2.svg"
 import abacaxi from "../assets/img/abacaxi.svg"
 import moeda from "../assets/img/moeda.svg"
 import roupa from "../assets/img/roupa.svg"
-import { Footer } from '../components/footer'
-import Carteira from '../assets/img/carteira.gif'
+import {Footer} from '../components/footer'
+
 
 export const Doacao = () => {
   return (
@@ -15,7 +15,7 @@ export const Doacao = () => {
     <Header  />
 
     <section className='sec-quem-somos'>
-        <div className="quem-somos">
+        <div className="layer">
                     <div className="linha-1">
                         <img src={Retangulo} />
                     </div>
@@ -47,9 +47,9 @@ export const Doacao = () => {
                 </div>
             </div>
     </section>
+    
     < Footer />
 
-    
     </>
   )
 }
