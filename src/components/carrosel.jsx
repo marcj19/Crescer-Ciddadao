@@ -29,8 +29,8 @@ function Carrosel() {
                         <Swiper
                             slidesPerView={3}
                             pagination
-                            autoplay={{ delay: 1500 }}
-                            spaceBetween={30}
+                            autoplay={{ delay: 2500 }}
+                            spaceBetween={25}
                             loop={true}
                         >
                             {data.map((item) => (

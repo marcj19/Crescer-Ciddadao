@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 
 .secao{
-    height: 400px;
+    height: 450px;
     width: auto;
     background-color: #8DCAE8;
     margin-top: 3%;
@@ -10,20 +10,22 @@ section .layout-carrosel{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5%;
+    padding: 1.3%;
 }
 
 section .layout-images{
-    width: 80%;
+    width: 85%;
 }
 
 .secao img{
     height: 350px;
     border-radius: 20px;
+    width: 85%;
+    box-shadow: 3px 4px 4px 3px #2985b3;
 }
 
-.quem-somos img{
-    width: 70vh;
+.layout-images img{
+    height: 410px;
 }
 
 .quem-somos{
@@ -90,45 +92,6 @@ section .layout-images{
     display: flex;
 }
 
-.footer{
-    background-size: cover;
-    background-color: #B2C7D2;
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .footertxtmain{
-    gap: 30px;
-    
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .footertxt1{
-    margin-left: 20px;
-    line-height: 1.5em;
-    font-size: 22px;
-  }
-  
-  .footertxt2{
-    padding-left: 20px;
-    line-height: 1.5em;
-    font-size: 22px;
-    margin-left: 20px;
-  }
-  
-  .imgfooter{
-    display: flex; 
-    align-items: center; 
-    justify-content: flex-end; 
-    gap: 15px; 
-  }
-
-footer img{
-    height: 40px;
-    width: 80%;
-}
 
 .phrase-tit{
     text-transform: uppercase;
@@ -140,7 +103,4 @@ footer img{
     margin-top: 10%;
 }
 
-footer p{
-    font-size: 13pt;
-    font-family: "Sen", sans-serif;
-}
+
