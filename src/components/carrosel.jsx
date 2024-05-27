@@ -27,9 +27,11 @@ function Carrosel() {
                 <div className="layout-carrosel">
                     <div className="layout-images">
                         <Swiper
-                            slidesPerView={1}
+                            slidesPerView={3}
                             pagination
-                            autoplay={{ delay: 2500 }}
+                            autoplay={{ delay: 1500 }}
+                            spaceBetween={30}
+                            loop={true}
                         >
                             {data.map((item) => (
                                 <SwiperSlide key={item.id}>

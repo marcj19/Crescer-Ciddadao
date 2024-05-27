@@ -41,6 +41,7 @@ export const SobreNosl = () => {
             <h1>Angela</h1>
             <h3>Angela é uma funcionária dedicada e confiável, conhecida por sua ética de trabalho exemplar e sua atenção aos detalhes. Com habilidades de comunicação eficazes, ela facilita a colaboração entre departamentos. Profissionalmente competente, ela resolve problemas rapidamente e busca constantemente oportunidades de aprendizado. Sua personalidade gentil e empática cria um ambiente de trabalho positivo e acolhedor para todos ao seu redor.</h3>
           </div>
+          
         </Slider>
         <div className="nossa-historia-container">
         <svg className="svg-left" width="674" height="13" viewBox="0 0 674 13" fill="none" xmlns="http://www.w3.org/2000/svg">

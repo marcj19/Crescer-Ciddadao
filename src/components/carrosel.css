@@ -10,14 +10,16 @@ section .layout-carrosel{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.7%;
+    padding: 1.5%;
 }
+
 section .layout-images{
-    width: 20%;
+    width: 80%;
 }
 
 .secao img{
     height: 350px;
+    border-radius: 20px;
 }
 
 .quem-somos img{
