@@ -13,19 +13,19 @@ function Nav(){
             </div>
 
             <div className="link-layout">
-            <Link to={'SobreNos'}>Sobre Nos</Link>
+            <Link to={'/SobreNos'}>Sobre Nos</Link>
            </div>
 
            <div className="link-layout">
-           <Link to={'Blog'}>Blog</Link>
+           <Link to={'/Blog'}>Blog</Link>
            </div>
 
             <div className="link-layout">
-            <Link to={'Servicosl'}>Serviços</Link>
+            <Link to={'/Servicosl'}>Serviços</Link>
            </div>
 
             <div className="link-layout">
-           <Link to={'Doacao'}>Apoie-Nos</Link>
+           <Link to={'/Doacao'}>Apoie-Nos</Link>
            </div>
 
            </div>

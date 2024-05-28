@@ -21,7 +21,7 @@ section .layout-images{
     height: 350px;
     border-radius: 20px;
     width: 85%;
-    box-shadow: 3px 4px 4px 3px #2985b3;
+    box-shadow: 3px 4px 4px 3px #0d2e3f;
 }
 
 .layout-images img{
@@ -54,7 +54,6 @@ section .layout-images{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #8a8a8a;
 }
 
 
@@ -64,14 +63,13 @@ section .layout-images{
     border: 1px solid black;
     z-index: -1;
     margin: 0px 0 0 20px;
-
-    
 }
+
 
 .layout-text{
     text-align: justify;
     height: 500px;
-    width: 1000px;
+    width: auto;
     background-color: #0A4A68;
     display: flex;
     align-items: center;
@@ -88,8 +86,12 @@ section .layout-images{
 .layout-text p{
     color: white;
     font-size: 15pt;
-    margin-left: 10%;
     display: flex;
+    width: 48%;
+    text-align: justify;
+    height: 80%;
+    display: flex;
+    align-items: center;
 }
 
 

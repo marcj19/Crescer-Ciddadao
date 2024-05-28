@@ -63,10 +63,11 @@
 
 .opcoes-doacao p{
     font-family: "Sen", sans-serif;
-    font-size: 16pt;
-    width: 140px;
-    color: rgb(0, 0, 0);
+    font-size: 15pt;
+    width: 230px;
+    color: rgb(13, 27, 64);
 }
+
 .alimentos{
     display: flex;
     flex-direction: column;
@@ -112,10 +113,10 @@
     color: rgb(4, 4, 4);
     border: 1px solid rgb(9, 175, 51);
     font-weight: bold;
+    margin-bottom: 26px;
 }
 
 .btn:hover{
-    background-color: #11a304;
-    
+    background-color: #12b35b;
 }
 

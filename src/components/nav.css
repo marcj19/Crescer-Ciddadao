@@ -28,6 +28,7 @@ nav a{
     font-size: 17pt;
     font-weight: bold;
     text-transform: uppercase;
+    transition: all 150ms ease-in-out;
 }
 
 nav .link-layout{
@@ -40,4 +41,9 @@ nav .link-layout{
     background-color: #FFFFFF;
     box-shadow: 0px 18px 10px -15px #111;
 }
+
+.link-layout:hover{
+    background-color: rgb(233, 238, 236);
+}
+
 
