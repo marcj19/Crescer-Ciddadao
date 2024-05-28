@@ -10,7 +10,12 @@ const Coisa = () => {
   const [showText1, setShowText1] = useState(false); // Estado para controlar a exibição do texto para a primeira imagem
   const [showText2, setShowText2] = useState(false); // Estado para controlar a exibição do texto para a segunda imagem
   const [showText3, setShowText3] = useState(false); // Estado para controlar a exibição do texto para a terceira imagem
-
+  const ocultar = () => {
+    <div className="ocultar">
+      setShowText1(!showText1);
+    </div>
+    
+  }
   return (
     <>
       <div className='ablue'>
@@ -35,21 +40,19 @@ const Coisa = () => {
 
           <div className='layoutimg'>
             <button className="expand-button" onClick={() => setShowText1(!showText1)}>Expandir</button>
-            {showText1 && <div className="text-left">Texto ao lado da primeira imagem</div>}
             <img src={serv} alt="Imagem do serviço 1" />
           </div>
-
+          {showText1 && <div className="text-left">A fisioterapia é uma área da saúde que desempenha um papel crucial na reabilitação e na promoção do bem-estar físico.</div>}
           <div className='layoutimg1'>
             <button className="expand-button" onClick={() => setShowText2(!showText2)}>Expandir</button>
-            {showText2 && <div className="text-left">Texto ao lado da segunda imagem</div>}
             <img src={serv1} alt="Imagem do serviço 2" />
           </div>
-
+          {showText2 && <div className="text-left">A fisioterapia é uma área da saúde que desempenha um papel crucial na reabilitação e na promoção do bem-estar físico.</div>}
           <div className='layoutimg2'>
             <button className="expand-button" onClick={() => setShowText3(!showText3)}>Expandir</button>
-            {showText3 && <div className="text-left">Texto ao lado da terceira imagem</div>}
             <img src={serv2} alt="Imagem do serviço 3" />
           </div>
+          {showText3 && <div className="text-left">A fisioterapia é uma área da saúde que desempenha um papel crucial na reabilitação e na promoção do bem-estar físico.</div>}
 
         </div>
 
