@@ -33,11 +33,15 @@ section .layout-images{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: auto;
 }
+
+
 .titulo{
     font-family: "Sen", sans-serif;
     color: #333333;
     font-size: 24pt;
+    text-align: center;
 }
 
 .layout-quem-somos{
@@ -87,7 +91,7 @@ section .layout-images{
     color: white;
     font-size: 15pt;
     display: flex;
-    width: 48%;
+    width: 70%;
     text-align: justify;
     height: 80%;
     display: flex;
