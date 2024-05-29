@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import * as ReactDOM from "react-dom/client";
 import './Login.css';
 import Logo from '../assets/img/logo.png';
 import userIcon from '../assets/img/img4.png';
 import keyIcon from '../assets/img/keyIcon.png';
 import googleIcon from '../assets/img/googleIcon.png';
+import { Link } from 'react-router-dom';
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -14,13 +16,15 @@ const Login = () => {
     return () => {
       document.body.classList.remove('login-body');
     };
-  }, []);
+  }, [])
 
   const handleLogin = (event) => {
     event.preventDefault();
     console.log('Email:', email);
     console.log('Senha:', password);
-  };
+    // Redirecionar para uma página web vazia
+  window.location.href = 'https://animated-orbit-7v7pp674j56j2pwr9-5173.app.github.dev/';
+  }
 
   const handleRegister = () => {
     console.log('Redirecionando para o cadastro...');
