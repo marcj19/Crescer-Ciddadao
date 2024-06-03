@@ -68,7 +68,8 @@ const Login = () => {
           <div className="checkbox-group">
             <input type="checkbox" id="rememberMe" />
             <label htmlFor="rememberMe">Lembrar de mim</label>
-            <span className="forgot-password">Esqueceu a senha?</span>
+            <span className="forgot-password">
+            <a href= "https://animated-orbit-7v7pp674j56j2pwr9-5173.app.github.dev/"> Esqueceu a senha?</a></span>
           </div>
         </div>
         <button type="submit">ENTRAR</button>
@@ -78,7 +79,7 @@ const Login = () => {
         </div>
 
         <button type="button" onClick={handleRegister}>
-          <span>Não tem uma conta? Cadastrar</span>
+          <a href= "https://animated-orbit-7v7pp674j56j2pwr9-5173.app.github.dev/"> Não tem uma conta? Cadastrar</a>
         </button>
       </form>
 
