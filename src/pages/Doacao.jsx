@@ -19,7 +19,7 @@ export const Doacao = () => {
                     <div className="linha-1">
                         <img src={Retangulo} />
                     </div>
-                    <div className="titulo">
+                    <div className="titulo3">
                         <h2>APOIE NOS</h2>
                     </div>
                     <div className="linha-2">

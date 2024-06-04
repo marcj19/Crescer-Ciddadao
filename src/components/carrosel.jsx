@@ -47,13 +47,13 @@ function Carrosel() {
                 </div>
             </section>
             <div className="quem-somos">
-                <div className="linha-1">
+                <div className="linha">
                     <img src={Retangulo} />
                 </div> 
-                <div className="titulo">
+                <div className="title">
                     <h2>QUEM SOMOS</h2>
                 </div>
-                <div className="linha-2">
+                <div className="linha">
                     <img src={Retangulo2} />
                 </div>
             </div>

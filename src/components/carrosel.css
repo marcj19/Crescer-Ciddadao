@@ -34,10 +34,11 @@ section .layout-images{
     justify-content: space-between;
     align-items: center;
     width: auto;
+    box-sizing: border-box;
 }
 
 
-.titulo{
+.title{
     font-family: "Sen", sans-serif;
     color: #333333;
     font-size: 24pt;
@@ -62,18 +63,21 @@ section .layout-images{
 
 
 .layout-image img{
-    width: 400px;
-    height: 400px;
+    width: 26%;
+    height: 420px;
     border: 1px solid black;
-    z-index: -1;
+    z-index: 1;
     margin: 0px 0 0 20px;
+    position: absolute;
+    top: 142%;
+    left: 16%;
 }
 
 
 .layout-text{
     text-align: justify;
     height: 500px;
-    width: auto;
+    width: 58%;
     background-color: #0A4A68;
     display: flex;
     align-items: center;
@@ -81,6 +85,10 @@ section .layout-images{
     z-index: 1;
     font-weight: bold;
     font-family: "Sen", sans-serif;
+    box-sizing: border-box;
+    z-index: 0;
+    position: absolute;
+    left: 32%;
     box-sizing: border-box;
 }
 
@@ -91,11 +99,11 @@ section .layout-images{
     color: white;
     font-size: 15pt;
     display: flex;
-    width: 70%;
+    width: 69%;
     text-align: justify;
-    height: 80%;
     display: flex;
     align-items: center;
+    margin-left: 15%;
 }
 
 
@@ -106,7 +114,7 @@ section .layout-images{
     text-decoration: underline;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    font-size: 19pt;
 }
-
 
