@@ -79,7 +79,7 @@ const Login = () => {
         </div>
 
         <button type="button" onClick={handleRegister}>
-          <a href= "https://animated-orbit-7v7pp674j56j2pwr9-5173.app.github.dev/"> Não tem uma conta? Cadastrar</a>
+          <a href= "http://127.0.0.1:5504/index.html"> Não tem uma conta? Cadastrar</a>
         </button>
       </form>
 
