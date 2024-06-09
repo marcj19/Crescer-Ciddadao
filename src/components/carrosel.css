@@ -71,6 +71,9 @@ section .layout-images{
     position: absolute;
     top: 142%;
     left: 16%;
+    @media screen {
+        
+    }
 }
 
 
