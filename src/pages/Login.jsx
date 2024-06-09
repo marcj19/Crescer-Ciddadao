@@ -6,6 +6,7 @@ import userIcon from '../assets/img/img4.png';
 import keyIcon from '../assets/img/keyIcon.png';
 import googleIcon from '../assets/img/googleIcon.png';
 import { Link } from 'react-router-dom';
+
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -26,7 +27,14 @@ const Login = () => {
   window.location.href = 'https://animated-orbit-7v7pp674j56j2pwr9-5173.app.github.dev/';
   }
 
-  const handleRegister = () => {
+  const handleRegister = async (event) => {
+    
+    try {
+      event.preventDefault()
+      const response = await fetch('http://localhost:5173')
+    } catch (error) {
+      
+    }
     console.log('Redirecionando para o cadastro...');
   };
 
