@@ -1,6 +1,7 @@
 import React from 'react'
 import './doacao.css'
 import Header from '../components/Header'
+import Nav from "../components/Nav"
 import Retangulo from "../assets/img/retangulo-1.svg"
 import Retangulo2 from "../assets/img/retangulo-2.svg"
 import abacaxi from "../assets/img/abacaxi.svg"
@@ -13,6 +14,7 @@ export const Doacao = () => {
   return (
     <>
     <Header  />
+    <Nav />
 
     <section className='sec-quem-somos'>
         <div className="layer">

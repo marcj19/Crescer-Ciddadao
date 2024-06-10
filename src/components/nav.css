@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
+.color1{
+    background-color: #18A5E9;
+}
+
+.color2{
+    background-color: #FFBD12
+}
+
+.color3{
+    background-color: #14F453;
+}
+
+.color4{
+    background-color: #15D6BE;
+}
+
 nav{
     width: auto;
     height: 90px;
