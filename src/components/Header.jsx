@@ -21,7 +21,7 @@ function Header(){
         </div>
 
         <div className="layout-perfil">
-            <Link to={'Login'}><img src={Perfil} alt="Perfil"/></Link>
+            <Link to={'/Login'}><img src={Perfil} alt="Perfil"/></Link>
         </div>
     </header>
 

@@ -5,7 +5,7 @@ function Nav(){
 
     return(
         <>
-        <nav>
+        <nav className="color1">
         <div className="layout-navegacao">
             
         <div className="link-layout">

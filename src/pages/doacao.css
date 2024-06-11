@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 
-
+.titulo3{
+    font-family: "Sen", sans-serif;
+    color: #333333;
+    font-size: 24pt;
+    text-align: center;
+}
 
 
 .sec-quem-somos .quem-somos{
@@ -24,16 +29,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    
-}
-.sec-quem-somos .titulo{
-    font-family: "Sen", sans-serif;
-    color: #333333;
-    font-size: 24pt;
-    width: 17%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -100,7 +95,6 @@
 
 .sec-quem-somos{
     height: 700px;
-    background-color:rgba(219, 226, 232, 1);
     width: auto;
 }
 
