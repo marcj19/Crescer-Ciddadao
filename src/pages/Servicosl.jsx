@@ -9,7 +9,7 @@ export const Servicosl = () => {
   return (
     <>
     <Header/>
-    <Nav />
+    <Nav/>
     <Coisa/>
     <Cards/>
     </>

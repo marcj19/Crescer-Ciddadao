@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Header from '../components/Header';
+import Nav from '../components/Nav'
 import { Footer } from '../components/footer';
 import './SobreNos.css';
 import Logo1 from "../assets/img/img10.jpg";
@@ -58,6 +59,7 @@ export const SobreNosl = () => {
   return (
     <>
       <Header />
+      <Nav/>
       <div className="sobre-nos-container">
         <svg className="svg-left" width="679" height="13" viewBox="0 0 674 13" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 0H667.5C671.09 0 674 2.91015 674 6.5V6.5C674 10.0899 671.09 13 667.5 13H0V0Z" fill="#333333"/>
