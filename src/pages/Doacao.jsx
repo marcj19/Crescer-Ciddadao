@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './doacao.css'
 import Header from '../components/Header'
 import Nav from "../components/Nav"
@@ -8,9 +8,13 @@ import abacaxi from "../assets/img/abacaxi.svg"
 import moeda from "../assets/img/moeda.svg"
 import roupa from "../assets/img/roupa.svg"
 import {Footer} from '../components/footer'
+import ModalDinDin from '../components/modaldindin'
 
 
 export const Doacao = () => {
+
+    const[openModal, setOpenModal] = useState(false)
+
   return (
     <>
     <Header  />
@@ -34,17 +38,21 @@ export const Doacao = () => {
                     <div className='alimentos'>
                         <img src={abacaxi} alt="" />
                         <p>Doação de alimentos não perecíveis</p>
-                        <button className='btn'>Doar</button>
+                        <button className='btn-doar'>Doar</button>
                     </div>
                     <div className='dinheiro'>
                         <img src={moeda} alt="" />
                         <p>Seu apoio financeiro transforma nossa causa</p>
-                        <button className="btn">Doar</button>
+                        <button className="btn-doar" onClick={() => setOpenModal(true)}>Doar</button>
+                        <div><ModalDinDin isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
+                        Conteudo do modal
+                        </ModalDinDin>
+                        </div>
                     </div>
                     <div className='roupa'>
                         <img src={roupa} alt="" />
                         <p>Nos sentimos acolhidos por você</p>
-                        <button className="btn">Doar</button>
+                        <button className="btn-doar">Doar</button>
                     </div>
                 </div>
             </div>
