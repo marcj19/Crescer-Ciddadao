@@ -98,7 +98,8 @@ export const SobreNosl = () => {
           </svg>
         </div>
         <div className="historia-instituição">
-          <h2>Marcos era um homem de meia-idade com um sorriso amável e olhos que brilhavam de determinação. Ele trabalhava como contador em uma pequena empresa familiar chamada "Soluções Financeiras Integradas". Desde o momento em que entrou na empresa, Marcos mostrou um compromisso inabalável com seu trabalho. Ele era conhecido por sua ética profissional impecável e sua capacidade de resolver problemas financeiros complexos com facilidade. No entanto, a vida de Marcos não era apenas sobre números e planilhas. Ele também era um grande apoiador da comunidade local. Sempre que havia eventos de caridade ou oportunidades de voluntariado, Marcos estava lá na linha de frente, oferecendo seu tempo e recursos para ajudar os outros.</h2>
+          <h2>Marcos era um homem de meia-idade com um sorriso amável e olhos que brilhavam de determinação.
+            Ele trabalhava como contador em uma pequena empresa familiar chamada "Soluções Financeiras Integradas". Desde o momento em que entrou na empresa, Marcos mostrou um compromisso inabalável com seu trabalho. Ele era conhecido por sua ética profissional impecável e sua capacidade de resolver problemas financeiros complexos com facilidade. No entanto, a vida de Marcos não era apenas sobre números e planilhas. Ele também era um grande apoiador da comunidade local. Sempre que havia eventos de caridade ou oportunidades de voluntariado, Marcos estava lá na linha de frente, oferecendo seu tempo e recursos para ajudar os outros.</h2>
         </div>
       </div>
       <div className="outra-linha">
