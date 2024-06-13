@@ -1,3 +1,17 @@
 .botao2{
-    
+    color: rgb(18, 16, 16);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: 1000ms;
+}
+
+.botao2:hover{
+    background-color: rgb(255, 252, 252);
+}
+
+.fechar{
+    font-size: 20pt;
+    text-transform: uppercase;
+
 }

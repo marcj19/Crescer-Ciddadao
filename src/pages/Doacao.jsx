@@ -9,6 +9,13 @@ import moeda from "../assets/img/moeda.svg"
 import roupa from "../assets/img/roupa.svg"
 import {Footer} from '../components/footer'
 import ModalDinDin from '../components/modaldindin'
+import Pix from '../assets/img/pix.png'
+
+
+const Pix_Style = {
+    width: '103%',
+    height: '150%'
+}
 
 
 export const Doacao = () => {
@@ -45,7 +52,7 @@ export const Doacao = () => {
                         <p>Seu apoio financeiro transforma nossa causa</p>
                         <button className="btn-doar" onClick={() => setOpenModal(true)}>Doar</button>
                         <div><ModalDinDin isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
-                        Conteudo do modal
+                        <img style={Pix_Style} src={Pix} alt="Pix" />
                         </ModalDinDin>
                         </div>
                     </div>

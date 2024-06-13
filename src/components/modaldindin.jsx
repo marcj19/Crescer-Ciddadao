@@ -1,4 +1,6 @@
 import React from "react";
+import Pix from '../assets/img/pix.png'
+import './modaldindin.css'
 
 const Background_Style = {
     position: 'fixed',
@@ -15,11 +17,13 @@ const Modal_Style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%,-50%)',
-    padding: '150px',
-    backgroundColor: '#fff',
+    padding: '30px',
+    backgroundColor: '#DBE2E8',
     borderRadius: '10px',
-    color: 'black'
+    color: 'black',
+    width: '30%',
 }
+
 
 export default function ModalDinDin({isOpen, setModalOpen, children}) {
 
@@ -27,14 +31,14 @@ export default function ModalDinDin({isOpen, setModalOpen, children}) {
     return (
     <div style={Background_Style}>
     <div style={Modal_Style}>
+
+    <button onClick={setModalOpen} className='botao2'>
+        <h5 className="fechar">Fechar</h5>
+    </button>
         <div>
         {children}
         </div>
 
-        <button onClick={setModalOpen} className='botao2'style={{color: 'black', width:'150px', alignItems:'center'}}>
-            Fechar
-        </button>
-       
     </div>
     </div>
     )
